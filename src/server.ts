@@ -1,18 +1,18 @@
+import "reflect-metadata";
 import express from "express";
 
-const app = express()
+import {router} from "./routes"
 
-/**
-GET => Buscar informações
-POST => Inserir(criar) dados/informações 
-PUT => Alterar uma informação 
-DELETE => Remover um dado
-PATCH => ALterar uma informação específica
-*/
+import "./database";
+
+const app = express();
+
+app.use(express.json());
+app.use(router);
+
 
 app.get('/test', (request, response) => {
-  //Request => Entrando dados
-  // Response => Saindo dados
+  
   return response.send("Ola com o método GET")
 })
 app.post('/test-post', (request, response) => {
