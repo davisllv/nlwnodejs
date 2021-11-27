@@ -1,12 +1,6 @@
 <h1 align="center">Valoriza</h1>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
-
-  <img src="https://img.shields.io/static/v1?label=NLW&message=Together&color=8257E5&labelColor=000000" alt="NLW Together" />
-</p>
-
-<p align="center">
   <img alt="Preview" src="https://github.com/rocketseat-education/nlw-06-nodejs/blob/master/.github/preview.png?raw=true">
 </p>
 
@@ -32,9 +26,5 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 
 Por fim, a aplicação estará disponível em `http://localhost:3000`
 
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
 ---
-Feito com 💜 &nbsp;by Rocketseat 👋🏻 &nbsp;[Participe da nossa comunidade!](https://discord.gg/gKUVrzrPrU)
+Feito com 💜 &nbsp;by Rocketseat 👋🏻 
